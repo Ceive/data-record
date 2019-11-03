@@ -7,7 +7,7 @@
  * Date: 23.01.2017
  * Time: 15:36
  */
-namespace Jungle\Data\Storage\Db {
+namespace Ceive\DataRecord\Storage\Db {
 
 	/**
 	 * Class Platform

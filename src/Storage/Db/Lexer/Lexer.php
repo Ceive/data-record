@@ -5,10 +5,10 @@
  * Date: 07.03.2016
  * Time: 13:39
  */
-namespace Jungle\Data\Storage\Db\Lexer {
+namespace Ceive\DataRecord\Storage\Db\Lexer {
 
-	use Jungle\Data\Storage\Db\Lexer\SignManager;
-	use Jungle\Data\Storage\Db\Sql;
+	use Ceive\DataRecord\Storage\Db\Lexer\SignManager;
+	use Ceive\DataRecord\Storage\Db\Sql;
 
 	/**
 	 * Class Lexer

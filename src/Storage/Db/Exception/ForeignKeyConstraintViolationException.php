@@ -17,7 +17,7 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Jungle\Data\Storage\Db\Exception;
+namespace Ceive\DataRecord\Storage\Db\Exception;
 
 /**
  * Exception for a foreign key constraint violation detected in the driver.

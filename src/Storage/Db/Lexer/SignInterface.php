@@ -5,7 +5,7 @@
  * Date: 07.03.2016
  * Time: 20:08
  */
-namespace Jungle\Data\Storage\Db\Lexer {
+namespace Ceive\DataRecord\Storage\Db\Lexer {
 
 	/**
 	 * Interface SignInterface

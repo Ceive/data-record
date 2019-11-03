@@ -7,7 +7,7 @@
  * Date: 28.01.2017
  * Time: 0:41
  */
-namespace Jungle\Data\Storage\Db\Driver {
+namespace Ceive\DataRecord\Storage\Db\Driver {
 
 	/**
 	 * Class PDOStatement

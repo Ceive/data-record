@@ -7,9 +7,9 @@
  * Date: 27.01.2017
  * Time: 23:42
  */
-namespace Jungle\Data\Storage\Db\Types {
+namespace Ceive\DataRecord\Storage\Db\Types {
 	
-	use Jungle\Data\Storage\Db\Low\Platforms;
+	use Ceive\DataRecord\Storage\Db\Low\Platforms;
 
 	class TypeInteger extends Type{
 

@@ -7,9 +7,9 @@
  * Date: 29.01.2017
  * Time: 3:29
  */
-namespace Jungle\Data\Storage\Db\Types {
+namespace Ceive\DataRecord\Storage\Db\Types {
 	
-	use Jungle\Data\Storage\Db\Dialect;
+	use Ceive\DataRecord\Storage\Db\Dialect;
 
 	/**
 	 * Class TypeNull

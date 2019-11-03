@@ -5,9 +5,9 @@
  * Date: 07.03.2016
  * Time: 20:49
  */
-namespace Jungle\Data\Storage\Db\Lexer\SignManager {
+namespace Ceive\DataRecord\Storage\Db\Lexer\SignManager {
 
-	use Jungle\Data\Storage\Db\Lexer\SignType;
+	use Ceive\DataRecord\Storage\Db\Lexer\SignType;
 	use Jungle\Util\Smart\Keyword\Factory;
 	use Jungle\Util\Smart\Keyword\Pool;
 	use Jungle\Util\Smart\Keyword\Storage;

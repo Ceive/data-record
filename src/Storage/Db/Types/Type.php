@@ -7,9 +7,9 @@
  * Date: 27.01.2017
  * Time: 23:39
  */
-namespace Jungle\Data\Storage\Db\Types {
+namespace Ceive\DataRecord\Storage\Db\Types {
 
-	use Jungle\Data\Storage\Db\Platform;
+	use Ceive\DataRecord\Storage\Db\Platform;
 
 	/**
 	 * Class Type

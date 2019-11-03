@@ -1,6 +1,6 @@
 <?php
-namespace Jungle\Data\Storage\Db\Definition;
-use Jungle\Data\Storage\Db\Connection;
+namespace Ceive\DataRecord\Storage\Db\Definition;
+use Ceive\DataRecord\Storage\Db\Connection;
 
 /**
  * @author Benjamin Eberlei <kontakt@beberlei.de> (Doctrine)

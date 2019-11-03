@@ -7,9 +7,9 @@
  * Date: 29.01.2017
  * Time: 17:21
  */
-namespace Jungle\Data\Storage\Db\Platforms {
+namespace Ceive\DataRecord\Storage\Db\Platforms {
 	
-	use Jungle\Data\Storage\Db\Platform;
+	use Ceive\DataRecord\Storage\Db\Platform;
 
 	/**
 	 * Class MySQL

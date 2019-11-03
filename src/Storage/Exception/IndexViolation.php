@@ -7,7 +7,7 @@
  * Date: 22.09.2016
  * Time: 12:58
  */
-namespace Jungle\Data\Storage\Exception {
+namespace Ceive\DataRecord\Storage\Exception {
 
 	/**
 	 * Class IndexViolation

@@ -7,9 +7,9 @@
  * Date: 20.09.2016
  * Time: 17:00
  */
-namespace Jungle\Data\Storage\Exception {
+namespace Ceive\DataRecord\Storage\Exception {
 	
-	use Jungle\Data\Storage\Exception;
+	use Ceive\DataRecord\Storage\Exception;
 
 	/**
 	 * Class OperationException

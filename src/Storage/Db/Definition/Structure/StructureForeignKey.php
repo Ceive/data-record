@@ -7,7 +7,7 @@
  * Date: 24.01.2017
  * Time: 6:00
  */
-namespace Jungle\Data\Storage\Db\Definition\Structure {
+namespace Ceive\DataRecord\Storage\Db\Definition\Structure {
 
 	/**
 	 * Class StructureForeignKey

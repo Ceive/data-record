@@ -7,12 +7,12 @@
  * Date: 29.01.2017
  * Time: 19:15
  */
-namespace Jungle\Data\Storage\Db\Definition {
+namespace Ceive\DataRecord\Storage\Db\Definition {
 	
-	use Jungle\Data\Storage\Db\Definition\Query\QueryDelete;
-	use Jungle\Data\Storage\Db\Definition\Query\QueryInsert;
-	use Jungle\Data\Storage\Db\Definition\Query\QuerySelect;
-	use Jungle\Data\Storage\Db\Definition\Query\QueryUpdate;
+	use Ceive\DataRecord\Storage\Db\Definition\Query\QueryDelete;
+	use Ceive\DataRecord\Storage\Db\Definition\Query\QueryInsert;
+	use Ceive\DataRecord\Storage\Db\Definition\Query\QuerySelect;
+	use Ceive\DataRecord\Storage\Db\Definition\Query\QueryUpdate;
 
 	/**
 	 * Class DefinitionProcessor
@@ -234,10 +234,11 @@ namespace Jungle\Data\Storage\Db\Definition {
 			}
 		}
 
-		/**
-		 * @param QuerySelect $query
-		 * @return PayloadCollector|string
-		 */
+        /**
+         * @param QuerySelect $query
+         * @return PayloadCollector|string
+         * @throws \Exception
+         */
 		public function prepareSelect(QuerySelect $query){
 			try{
 				$this->nestingDeeper();

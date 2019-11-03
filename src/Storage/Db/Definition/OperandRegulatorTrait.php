@@ -7,9 +7,9 @@
  * Date: 28.01.2017
  * Time: 21:21
  */
-namespace Jungle\Data\Storage\Db\Definition {
+namespace Ceive\DataRecord\Storage\Db\Definition {
 	
-	use Jungle\Data\Storage\Db\Platform;
+	use Ceive\DataRecord\Storage\Db\Platform;
 
 	trait OperandRegulatorTrait{
 

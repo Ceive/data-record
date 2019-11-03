@@ -7,13 +7,13 @@
  * Date: 23.01.2017
  * Time: 2:44
  */
-namespace Jungle\Data\Storage\Db\Definition\Query {
+namespace Ceive\DataRecord\Storage\Db\Definition\Query {
 
-	use Jungle\Data\Storage\Db\Definition\DefinitionProcessor;
-	use Jungle\Data\Storage\Db\Definition\Expression;
-	use Jungle\Data\Storage\Db\Definition\ExpressionBlock;
-	use Jungle\Data\Storage\Db\Definition\ExpressionReference;
-	use Jungle\Data\Storage\Db\Definition\ExpressionValue;
+	use Ceive\DataRecord\Storage\Db\Definition\DefinitionProcessor;
+	use Ceive\DataRecord\Storage\Db\Definition\Expression;
+	use Ceive\DataRecord\Storage\Db\Definition\ExpressionBlock;
+	use Ceive\DataRecord\Storage\Db\Definition\ExpressionReference;
+	use Ceive\DataRecord\Storage\Db\Definition\ExpressionValue;
 
 	/**
 	 * Class QuerySelect
@@ -196,7 +196,7 @@ namespace Jungle\Data\Storage\Db\Definition\Query {
 		}
 
 		/**
-		 * @param QuerySelect|\Jungle\Data\Storage\Db\Definition\Expression|string $definition
+		 * @param QuerySelect|\Ceive\DataRecord\Storage\Db\Definition\Expression|string $definition
 		 * @param $alias
 		 * @param bool $merge
 		 * @return $this

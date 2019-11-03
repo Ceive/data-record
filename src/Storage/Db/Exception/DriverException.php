@@ -17,9 +17,9 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Jungle\Data\Storage\Db\Exception;
-use Jungle\Data\Storage\Db\DBALException;
-use Jungle\Data\Storage\Db\Driver\DriverException as DriverExceptionInterface;
+namespace Ceive\DataRecord\Storage\Db\Exception;
+use Ceive\DataRecord\Storage\Db\DBALException;
+use Ceive\DataRecord\Storage\Db\Driver\DriverException as DriverExceptionInterface;
 
 /**
  * Base class for all errors detected in the driver.

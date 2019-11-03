@@ -7,9 +7,9 @@
  * Date: 28.01.2017
  * Time: 3:38
  */
-namespace Jungle\Data\Storage\Db {
+namespace Ceive\DataRecord\Storage\Db {
 
-	use Jungle\Data\Storage\Db\Driver\ExceptionConverterDriver;
+	use Ceive\DataRecord\Storage\Db\Driver\ExceptionConverterDriver;
 
 	/**
 	 * Class DBALException

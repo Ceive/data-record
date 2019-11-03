@@ -7,9 +7,9 @@
  * Date: 23.01.2017
  * Time: 10:54
  */
-namespace Jungle\Data\Storage\Db {
+namespace Ceive\DataRecord\Storage\Db {
 
-	use Jungle\Data\Storage\Db\Definition\Query;
+	use Ceive\DataRecord\Storage\Db\Definition\Query;
 
 	/**
 	 * Interface Driver

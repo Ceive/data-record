@@ -7,7 +7,7 @@
  * Date: 23.01.2017
  * Time: 9:36
  */
-namespace Jungle\Data\Storage\Db\Definition {
+namespace Ceive\DataRecord\Storage\Db\Definition {
 
 	/**
 	 * Class ExpressionValueNull

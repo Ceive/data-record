@@ -7,11 +7,11 @@
  * Date: 23.01.2017
  * Time: 2:49
  */
-namespace Jungle\Data\Storage\Db\Definition\Query {
+namespace Ceive\DataRecord\Storage\Db\Definition\Query {
 
-	use Jungle\Data\Storage\Db\Definition\ExpressionBlock;
-	use Jungle\Data\Storage\Db\Definition\ExpressionReference;
-	use Jungle\Data\Storage\Db\Definition\ExpressionValue;
+	use Ceive\DataRecord\Storage\Db\Definition\ExpressionBlock;
+	use Ceive\DataRecord\Storage\Db\Definition\ExpressionReference;
+	use Ceive\DataRecord\Storage\Db\Definition\ExpressionValue;
 
 	/**
 	 * Class QueryExtended

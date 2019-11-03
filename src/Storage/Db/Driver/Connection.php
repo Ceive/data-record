@@ -7,7 +7,7 @@
  * Date: 28.01.2017
  * Time: 0:30
  */
-namespace Jungle\Data\Storage\Db\Driver {
+namespace Ceive\DataRecord\Storage\Db\Driver {
 
 	/**
 	 * Interface Connection

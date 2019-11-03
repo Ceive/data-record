@@ -17,7 +17,7 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Jungle\Data\Storage\Db\Exception;
+namespace Ceive\DataRecord\Storage\Db\Exception;
 
 /**
  * Exception for a lock wait timeout error of a transaction detected in the driver.

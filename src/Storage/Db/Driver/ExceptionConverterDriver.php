@@ -7,7 +7,7 @@
  * Date: 29.01.2017
  * Time: 17:28
  */
-namespace Jungle\Data\Storage\Db\Driver {
+namespace Ceive\DataRecord\Storage\Db\Driver {
 
 	/**
 	 * Interface ExceptionConverterDriver

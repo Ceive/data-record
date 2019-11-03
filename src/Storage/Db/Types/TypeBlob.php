@@ -7,7 +7,7 @@
  * Date: 28.01.2017
  * Time: 3:17
  */
-namespace Jungle\Data\Storage\Db\Types {
+namespace Ceive\DataRecord\Storage\Db\Types {
 	
 	class TypeBlob extends TypeString{
 		

@@ -19,8 +19,8 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Jungle\Data\Storage\Db\Definition;
-use Jungle\Data\Storage\Db\DBALException;
+namespace Ceive\DataRecord\Storage\Db\Definition;
+use Ceive\DataRecord\Storage\Db\DBALException;
 
 /**
  * Doctrine\DBAL\ConnectionException

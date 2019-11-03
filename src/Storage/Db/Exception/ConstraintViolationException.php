@@ -17,7 +17,7 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Jungle\Data\Storage\Db\Exception;
+namespace Ceive\DataRecord\Storage\Db\Exception;
 
 /**
  * Base class for all constraint violation related errors detected in the driver.

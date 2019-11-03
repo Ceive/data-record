@@ -7,7 +7,7 @@
  * Date: 20.09.2016
  * Time: 17:28
  */
-namespace Jungle\Data\Storage\Exception {
+namespace Ceive\DataRecord\Storage\Exception {
 
 	/**
 	 * Class Field

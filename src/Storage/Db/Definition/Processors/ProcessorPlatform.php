@@ -7,10 +7,10 @@
  * Date: 29.01.2017
  * Time: 19:22
  */
-namespace Jungle\Data\Storage\Db\Definition\Processors {
+namespace Ceive\DataRecord\Storage\Db\Definition\Processors {
 	
-	use Jungle\Data\Storage\Db\Definition\DefinitionProcessor;
-	use Jungle\Data\Storage\Db\Platform;
+	use Ceive\DataRecord\Storage\Db\Definition\DefinitionProcessor;
+	use Ceive\DataRecord\Storage\Db\Platform;
 
 	/**
 	 * Class ProcessorPlatform

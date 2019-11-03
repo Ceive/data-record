@@ -17,7 +17,7 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Jungle\Data\Storage\Db\Exception;
+namespace Ceive\DataRecord\Storage\Db\Exception;
 
 /**
  * Exception for a non-unique/ambiguous specified field name in a statement detected in the driver.

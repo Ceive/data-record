@@ -7,9 +7,9 @@
  * Date: 23.01.2017
  * Time: 10:56
  */
-namespace Jungle\Data\Storage\Db\Definition\Query {
+namespace Ceive\DataRecord\Storage\Db\Definition\Query {
 	
-	use Jungle\Data\Storage\Db\Definition\Definition;
+	use Ceive\DataRecord\Storage\Db\Definition\Definition;
 
 	/**
 	 * Class Query

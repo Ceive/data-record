@@ -7,13 +7,13 @@
  * Date: 20.09.2016
  * Time: 16:58
  */
-namespace Jungle\Data\Storage {
+namespace Ceive\DataRecord\Storage {
 
 	/**
 	 * Class Exception
 	 * @package Jungle\Data\Storage
 	 */
-	class Exception extends \Jungle\Data\Exception{
+	class Exception extends \Ceive\DataRecord\Exception{
 		
 	}
 }

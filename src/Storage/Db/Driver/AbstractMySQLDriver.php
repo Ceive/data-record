@@ -17,12 +17,12 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Jungle\Data\Storage\Db\Driver;
+namespace Ceive\DataRecord\Storage\Db\Driver;
 
-use Jungle\Data\Storage\Db\Connection;
-use Jungle\Data\Storage\Db\Driver;
-use Jungle\Data\Storage\Db\Exception;
-use Jungle\Data\Storage\Db\Platforms\MySQLPlatform;
+use Ceive\DataRecord\Storage\Db\Connection;
+use Ceive\DataRecord\Storage\Db\Driver;
+use Ceive\DataRecord\Storage\Db\Exception;
+use Ceive\DataRecord\Storage\Db\Platforms\MySQLPlatform;
 
 /**
  * Abstract base implementation of the {@link Doctrine\DBAL\Driver} interface for MySQL based drivers.

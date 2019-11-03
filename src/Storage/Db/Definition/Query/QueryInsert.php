@@ -7,10 +7,10 @@
  * Date: 23.01.2017
  * Time: 2:44
  */
-namespace Jungle\Data\Storage\Db\Definition\Query {
+namespace Ceive\DataRecord\Storage\Db\Definition\Query {
 
-	use Jungle\Data\Storage\Db\Definition\DefinitionProcessor;
-	use Jungle\Data\Storage\Db\Definition\ExpressionSkipping;
+	use Ceive\DataRecord\Storage\Db\Definition\DefinitionProcessor;
+	use Ceive\DataRecord\Storage\Db\Definition\ExpressionSkipping;
 
 
 	/**

@@ -7,9 +7,9 @@
  * Date: 24.01.2017
  * Time: 4:35
  */
-namespace Jungle\Data\Storage\Db\Definition {
+namespace Ceive\DataRecord\Storage\Db\Definition {
 
-	use Jungle\Data\Storage\Db\Platforms;
+	use Ceive\DataRecord\Storage\Db\Platforms;
 
 	/**
 	 * Class ExpressionBlock

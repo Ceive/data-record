@@ -7,10 +7,10 @@
  * Date: 28.01.2017
  * Time: 2:30
  */
-namespace Jungle\Data\Storage\Db {
+namespace Ceive\DataRecord\Storage\Db {
 	
-	use Jungle\Data\Storage\Db\Driver\Statement as StatementInterface;
-	use Jungle\Data\Storage\Db\Types\Type;
+	use Ceive\DataRecord\Storage\Db\Driver\Statement as StatementInterface;
+	use Ceive\DataRecord\Storage\Db\Types\Type;
 
 	/**
 	 * Class Statement

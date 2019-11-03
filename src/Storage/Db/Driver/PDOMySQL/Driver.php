@@ -7,14 +7,14 @@
  * Date: 28.01.2017
  * Time: 0:01
  */
-namespace Jungle\Data\Storage\Db\Driver\PDOMySQL {
+namespace Ceive\DataRecord\Storage\Db\Driver\PDOMySQL {
 
-	use Jungle\Data\Storage\Db\Connection;
-	use Jungle\Data\Storage\Db\DBALException;
-	use Jungle\Data\Storage\Db\Driver\AbstractMySQLDriver;
-	use Jungle\Data\Storage\Db\Driver\PDOConnection;
-	use Jungle\Data\Storage\Db\Driver\PDOException;
-	use Jungle\Data\Storage\Db\Platform;
+	use Ceive\DataRecord\Storage\Db\Connection;
+	use Ceive\DataRecord\Storage\Db\DBALException;
+	use Ceive\DataRecord\Storage\Db\Driver\AbstractMySQLDriver;
+	use Ceive\DataRecord\Storage\Db\Driver\PDOConnection;
+	use Ceive\DataRecord\Storage\Db\Driver\PDOException;
+	use Ceive\DataRecord\Storage\Db\Platform;
 
 	/**
 	 * Class MySQL
@@ -79,7 +79,7 @@ namespace Jungle\Data\Storage\Db\Driver\PDOMySQL {
 		 */
 		public function getPlatform(){
 			if(!$this->platform){
-				$this->platform = new \Jungle\Data\Storage\Db\Platforms\MySQLPlatform();
+				$this->platform = new \Ceive\DataRecord\Storage\Db\Platforms\MySQLPlatform();
 			}
 			return $this->platform;
 		}

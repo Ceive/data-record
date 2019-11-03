@@ -7,10 +7,10 @@
  * Date: 23.01.2017
  * Time: 2:44
  */
-namespace Jungle\Data\Storage\Db\Definition\Query {
+namespace Ceive\DataRecord\Storage\Db\Definition\Query {
 
-	use Jungle\Data\Storage\Db\Definition\DefinitionProcessor;
-	use Jungle\Data\Storage\Db\Definition\ExpressionFunction;
+	use Ceive\DataRecord\Storage\Db\Definition\DefinitionProcessor;
+	use Ceive\DataRecord\Storage\Db\Definition\ExpressionFunction;
 
 	/**
 	 * Class QueryUpdate
@@ -31,7 +31,7 @@ namespace Jungle\Data\Storage\Db\Definition\Query {
 
 		/**
 		 * @param $column
-		 * @param mixed|QuerySelect|\Jungle\Data\Storage\Db\Definition\Expression|ExpressionFunction $value
+		 * @param mixed|QuerySelect|\Ceive\DataRecord\Storage\Db\Definition\Expression|ExpressionFunction $value
 		 * @param bool|true $merge
 		 * @return $this
 		 */
@@ -81,7 +81,7 @@ namespace Jungle\Data\Storage\Db\Definition\Query {
 
 		/**
 		 * @param DefinitionProcessor $processor
-		 * @return \Jungle\Data\Storage\Db\Definition\PayloadCollector
+		 * @return \Ceive\DataRecord\Storage\Db\Definition\PayloadCollector
 		 */
 		public function render(DefinitionProcessor $processor){
 			$collector= $processor->prepareUpdate($this);

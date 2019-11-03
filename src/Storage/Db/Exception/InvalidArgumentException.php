@@ -17,7 +17,7 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Jungle\Data\Storage\Db\Exception;
+namespace Ceive\DataRecord\Storage\Db\Exception;
 
 /**
  * Exception to be thrown when invalid arguments are passed to any DBAL API
@@ -26,7 +26,7 @@ namespace Jungle\Data\Storage\Db\Exception;
  * @link   www.doctrine-project.org
  * @since  2.5
  */
-class InvalidArgumentDBALException extends \Jungle\Data\Storage\Db\DBALException{
+class InvalidArgumentDBALException extends \Ceive\DataRecord\Storage\Db\DBALException{
     /**
      * @return InvalidArgumentDBALException
      */

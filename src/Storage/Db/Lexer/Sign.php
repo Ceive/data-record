@@ -5,7 +5,7 @@
  * Date: 07.03.2016
  * Time: 13:40
  */
-namespace Jungle\Data\Storage\Db\Lexer {
+namespace Ceive\DataRecord\Storage\Db\Lexer {
 
 	use Jungle\Util\Named\NamedInterface;
 	use Jungle\Util\Smart\Keyword\Keyword;

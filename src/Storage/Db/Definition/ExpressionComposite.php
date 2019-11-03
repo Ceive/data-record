@@ -7,7 +7,7 @@
  * Date: 24.01.2017
  * Time: 4:27
  */
-namespace Jungle\Data\Storage\Db\Definition {
+namespace Ceive\DataRecord\Storage\Db\Definition {
 
 	/**
 	 * Class ExpressionComposite

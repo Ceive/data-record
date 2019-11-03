@@ -17,7 +17,7 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Jungle\Data\Storage\Db\Driver;
+namespace Ceive\DataRecord\Storage\Db\Driver;
 
 /**
  * Abstract base implementation of the {@link DriverException} interface.

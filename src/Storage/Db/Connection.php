@@ -8,11 +8,11 @@
  * Date: 24.01.2017
  * Time: 5:02
  */
-namespace Jungle\Data\Storage\Db {
+namespace Ceive\DataRecord\Storage\Db {
 
-	use Jungle\Data\Storage\Db\Driver\Connection as DriverConnectionInterface;
-	use Jungle\Data\Storage\Db\Driver\Statement as DriverStatementInterface;
-	use Jungle\Data\Storage\Db\Types\Type;
+	use Ceive\DataRecord\Storage\Db\Driver\Connection as DriverConnectionInterface;
+	use Ceive\DataRecord\Storage\Db\Driver\Statement as DriverStatementInterface;
+	use Ceive\DataRecord\Storage\Db\Types\Type;
 
 	/**
 	 * Interface Connection

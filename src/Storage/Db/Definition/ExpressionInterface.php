@@ -7,7 +7,7 @@
  * Date: 28.01.2017
  * Time: 18:02
  */
-namespace Jungle\Data\Storage\Db\Definition {
+namespace Ceive\DataRecord\Storage\Db\Definition {
 	
 	/**
 	 * Interface ExpressionInterface
