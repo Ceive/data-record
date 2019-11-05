@@ -11,11 +11,9 @@ namespace Ceive\DataRecord {
 
 	use Ceive\DataRecord\Exception\SchemaManagerException;
 	use Ceive\DataRecord\Schema\Schema;
+    use Ceive\DataRecord\Util\Storage\StorageInterface;
 
-
-	use Jungle\Di;
-	
-	/**
+    /**
 	 * Class SchemaManager
 	 * @package modelX
 	 */
@@ -35,6 +33,8 @@ namespace Ceive\DataRecord {
 
 		/** @var array  */
 		protected $directories = [];
+
+        public $storageService = null;
 
 		/**
 		 * @return SchemaManager
@@ -150,6 +150,7 @@ namespace Ceive\DataRecord {
 			return null;
 		}
 
+
 		/**
 		 * @param $storage
 		 * @return mixed
@@ -158,7 +159,15 @@ namespace Ceive\DataRecord {
 			if(is_object($storage)){
 				return $storage;
 			}
-			return Di::getDefault()->get($storage);
+
+			if($this->storageService instanceof StorageInterface){
+			    return $this->storageService;
+            }else if(is_callable($this->storageService)){
+			    return call_user_func($this->storageService, $storage);
+            }
+
+			//TODO: Error on get storage
+			return null;
 		}
 
 		public function getStorageAdapter(){

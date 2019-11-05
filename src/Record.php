@@ -9,6 +9,7 @@
  */
 namespace Ceive\DataRecord {
 
+    use Ceive\Value\Helper\HelperString;
     use Exception;
     use InvalidArgumentException;
     use Ceive\DataRecord\Exception\FieldAccessViolation;
@@ -30,8 +31,6 @@ namespace Ceive\DataRecord {
 	use Ceive\DataRecord\Util\Schema\OuterInteraction\SchemaAwareInterface;
 	use Ceive\DataRecord\Util\Storage;
 
-    use Jungle\Http\UploadedFile;
-	use Jungle\Util\Value\String;
 	
 	/**
 	 *

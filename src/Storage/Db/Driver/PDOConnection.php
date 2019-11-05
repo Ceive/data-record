@@ -15,7 +15,7 @@ namespace Ceive\DataRecord\Storage\Db\Driver {
 	 * Class PDOConnection
 	 * @package Jungle\Data\Storage\Db\Driver
 	 */
-	class PDOConnection extends \PDO implements Connection, ServerInfoAwareInterface{
+	class PDOConnection extends PDO implements Connection, ServerInfoAwareInterface{
 
 		/**
 		 * @param string      $dsn
